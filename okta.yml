@@ -1,0 +1,11 @@
+environments:
+  development:
+    host     : yourhost.oktapreview.com
+    credfile : ~/.oktapy/development.txt
+    apifile  : /etc/oktapy/okta-api.yml
+    objfile  : /etc/oktapy/okta-objects.yml
+  production:
+    host     : yourhost.okta.com
+    credfile : ~/.oktapy/production.txt
+    apifile  : /etc/oktapy/okta-api.yml
+    objfile  : /etc/oktapy/okta-objects.yml
